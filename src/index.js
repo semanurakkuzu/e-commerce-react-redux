@@ -6,6 +6,7 @@ import {
   } from "react-router-dom";
 import './index.css';
 import App from './App';
+import Clothes from './components/Clothes';
 
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,8 +20,8 @@ const router = createBrowserRouter([
       element: <App />,
     },
     {
-      path: "/clothesdetails",
-      element: <ClothesDetails/>,
+      path: "/clothes",
+      element: <Clothes/>,
     },
   ]);
 

@@ -1,6 +1,5 @@
 export default function Card(props) {
   return (
-    <div className="col">
       <div className="card">
         <img src={props.img} className="card-img-top" alt={props.name} />
         <div className="card-body text-center">
@@ -10,6 +9,5 @@ export default function Card(props) {
           </a>
         </div>
       </div>
-    </div>
   );
 }

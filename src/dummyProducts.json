@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "name": "Hat",
+    "variants": [
+      {
+        "color": "#ffc0cb",
+        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/013d71f10d8e4b5b9982ac760053ce5d_9366/Adicolor_Trefoil_Bucket_Hat_Pink_GN4906_02_standard_hover.jpg",
+        "stock": 0
+      },
+      {
+        "color": "#C0C0C0",
+        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/251a24c0f36e4d55aab0ac7600532af9_9366/Adicolor_Trefoil_Bucket_Hat_Grey_GN4905_02_standard_hover.jpg",
+        "stock": 5
+      },
+      {
+        "color": "#ffff",
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/330eacd06cca4d16bce5ac760080ebf5_9366/Adicolor_Trefoil_Bucket_Hat_White_FQ4641_02_standard_hover.jpg",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "T-shirt",
+    "variants": [
+      {
+        "color": "#ff0000",
+        "image": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1656695705/547865_XJEJZ_6178_002_100_0000_Light-Childrens-cotton-jersey-T-shirt.jpg",
+        "stock": 1
+      },
+      {
+        "color": "#191970",
+        "image": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1654640112/547559_XJEJ4_4392_002_100_0000_Light-Childrens-cotton-jersey-T-shirt.jpg",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dress",
+    "variants": [
+      {
+        "color": "#0000",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1-amazon-dresses-2022-1652201708.jpg?crop=0.383xw:0.766xh;0.308xw,0.125xh&resize=640:*",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pants",
+    "variants": [
+      {
+        "color": "#f5deb3",
+        "image": "https://target.scene7.com/is/image/Target/GUEST_17291fc9-d3ef-4f31-8c31-bab0c91ed82b",
+        "stock": 0
+      }
+    ]
+  }
+]

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 export default function ClothesDetails({ clothe }) {
-  const [variant, setVariant] = useState(clothe.variants[0])
-  
+  const [variant, setVariant] = useState(clothe.variants[0]);
+
   return (
     <div className="row align-items-center mt-5">
       <div className="col">
@@ -17,21 +17,21 @@ export default function ClothesDetails({ clothe }) {
             <div className="col-auto">
               <div
                 className="color"
-                style={{ background: variant.color }} 
+                style={{ background: variant.color }}
                 onMouseEnter={() => {
-                  setVariant(variant)
+                  setVariant(variant);
                 }}
               ></div>
             </div>
           ))}
         </div>
-        {variant.stock == 0 && 
-        <div class="alert alert-warning mt-5" role="alert">
+      </div>
+      <div className="col-12">
+        {variant.stock == 0 && (
+          <div class="alert alert-warning mt-5" role="alert">
             Ürünün stoğu tükenmiştir
-        </div> 
-        
-        }
-       
+          </div>
+        )}
       </div>
     </div>
   );

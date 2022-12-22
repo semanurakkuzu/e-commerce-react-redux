@@ -4,6 +4,7 @@
 
 ![e-commerce2](https://user-images.githubusercontent.com/110597975/209095768-3ea88fa0-0525-4953-b14f-3347c4a7f652.png)
 
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,8 +1,11 @@
 # E-commerce with React and Redux
 
-![e-commerce](https://user-images.githubusercontent.com/110597975/209095753-817cb787-3c3c-4dbe-8efa-05c0f68fa7db.png)
+![e-commerce_](https://user-images.githubusercontent.com/110597975/209167222-e594582f-5112-4b2f-a60a-bfddfa580baa.png)
 
-![e-commerce2](https://user-images.githubusercontent.com/110597975/209095768-3ea88fa0-0525-4953-b14f-3347c4a7f652.png)
+![e-commerce_2](https://user-images.githubusercontent.com/110597975/209167250-0964841f-b685-4431-923a-02d8ebb79ba9.png)
+
+![e-commerce_3](https://user-images.githubusercontent.com/110597975/209167263-a6cf9a0f-1ffa-4563-91d9-024218201ba1.png)
+
 
 
 ## Available Scripts

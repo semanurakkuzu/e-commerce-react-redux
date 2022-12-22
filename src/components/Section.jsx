@@ -7,10 +7,10 @@ export default function Section() {
   return (
     <div className="row mt-5">
       {clothes.map((clothe) => (
-        <div className="col">
+        <div className="col" key={`clothe-${clothe.id}`}>
           <Card
             img={clothe.variants[0].image}
-            name={clothe.variants[0].name}
+            name={clothe.name}
             id={clothe.id}
           ></Card>
         </div>

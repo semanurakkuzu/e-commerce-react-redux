@@ -1,13 +1,14 @@
 import { BsCart } from 'react-icons/bs';
+import { Link } from "react-router-dom";
 export default function Nav() {
   return (
     <nav className="navbar bg-light">
       <div className="container-fluid">
-        <a href="/" className="navbar-brand mb-0 h1 font-monospace text-warning">
+        <Link to="/" className="navbar-brand mb-0 h1 font-monospace text-warning">
           Supreme
-        </a>
+        </Link>
         <div className="float-end">
-        <a href="/cart" type="button" class="btn btn-warning"><BsCart/></a>
+        <Link to="/cart" type="button" className="btn btn-warning"><BsCart/></Link>
         </div>
       </div>
     </nav>

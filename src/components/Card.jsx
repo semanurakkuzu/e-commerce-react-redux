@@ -9,6 +9,9 @@ export default function Card(props) {
         <Link className="btn btn-warning" to={`/clothes/${props.id}`}>
           Show more
         </Link>
+        <Link className="btn btn-warning ms-3" to={`/clothes/${props.id}`}>
+        Add to cart
+        </Link>
       </div>
     </div>
   );

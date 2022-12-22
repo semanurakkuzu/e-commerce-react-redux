@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from './cartSlice'
 
-export function Cart() {
+export default function Cart() {
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
 

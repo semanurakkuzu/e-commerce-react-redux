@@ -7,7 +7,7 @@ export default function Nav() {
           Supreme
         </a>
         <div className="float-end">
-        <button type="button" class="btn btn-warning"><BsCart/></button>
+        <a href="/cart" type="button" class="btn btn-warning"><BsCart/></a>
         </div>
       </div>
     </nav>

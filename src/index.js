@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Clothes from "./components/Clothes";
+import { store } from './redux/store'
+import { Provider } from 'react-redux'
 
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +21,16 @@ const router = createBrowserRouter([
     path: "/clothes/:clotheId",
     element: <Clothes />,
   },
+  {
+    path: "/cart",
+    element: <Cart />,
+  },
+
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RouterProvider router={router} />);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
+);

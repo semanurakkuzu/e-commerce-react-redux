@@ -1,4 +1,4 @@
-# E-commerce with React 
+# E-commerce with React and Redux
 
 ![e-commerce](https://user-images.githubusercontent.com/110597975/209095753-817cb787-3c3c-4dbe-8efa-05c0f68fa7db.png)
 
